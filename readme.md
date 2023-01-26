@@ -16,3 +16,7 @@ URL do curso -> [TypeScript - Parte 2 - Avançando na Linguagem](https://cursos
 ***
 
 ## 01 - Elaborando uma Solução de View &#x1F516;
+* Inspiração no React para criação de templates declarativos e dinâmicos.
+* Manipulação declarativa do DOM através de template.
+* Template dinâmico.
+* Formatação de datas usando `Intl`.
