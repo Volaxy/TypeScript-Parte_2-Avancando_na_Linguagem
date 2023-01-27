@@ -1,5 +1,6 @@
 import { View } from "./View.js";
 export class NegociacoesView extends View {
+    // It's not posssible set an access property more restrict which the access property of the parent
     template(model) {
         return `
             <table class="table table-hover table-bordered">
@@ -14,7 +15,7 @@ export class NegociacoesView extends View {
                     ${model.list().map(negociacao => {
             return `
                                 <tr>
-                                    <td>${new Intl.DateTimeFormat().format(negociacao.data)}</td>
+                                    <td>${this.format(negociacao.data)}</td>
                                     <td>${negociacao.quantidade}</td>
                                     <td>${negociacao.valor}</td>
                                 <tr>
@@ -27,5 +28,8 @@ export class NegociacoesView extends View {
     update(model) {
         const template = this.template(model);
         this.element.innerHTML = template;
+    }
+    format(data) {
+        return new Intl.DateTimeFormat().format(data);
     }
 }

@@ -13,6 +13,9 @@ URL do curso -> [TypeScript - Parte 2 - Avançando na Linguagem](https://cursos
 ## Links Úteis &#x1F517;
 * [Base Project](https://github.com/alura-cursos/typescript-curso-1/archive/2696c7ca452f2eb6468caaccc2699da2332a39a1.zip) - Código base do projeto.
 
+## Atalhos &#x2328;
+* Clicar 2x em cima do nome da classe, e com o botão direito, selecionar a opção: "Find All Implementations".
+
 ***
 
 ## 01 - Elaborando uma Solução de View &#x1F516;
@@ -26,3 +29,9 @@ URL do curso -> [TypeScript - Parte 2 - Avançando na Linguagem](https://cursos
 * Classes com tipo genérico.
 * Classes abstratas.
 * O modificador `protected`.
+
+## 03 - Visibilidade de Métodos e Enumeration &#x1F516;
+* Visibilidade de métodos.
+* Validando negociações em dias úteis.
+* Vantagens do uso de enums.
+* Cuidados com enums.
