@@ -1,6 +1,5 @@
 import { View } from "./View.js";
 export class NegociacoesView extends View {
-    // It's not posssible set an access property more restrict which the access property of the parent
     template(model) {
         return `
             <table class="table table-hover table-bordered">
