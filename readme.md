@@ -20,3 +20,9 @@ URL do curso -> [TypeScript - Parte 2 - Avançando na Linguagem](https://cursos
 * Manipulação declarativa do DOM através de template.
 * Template dinâmico.
 * Formatação de datas usando `Intl`.
+
+## 02 - Herança e Reaproveitamento de Código &#x1F516;
+* Herança com TypeScript.
+* Classes com tipo genérico.
+* Classes abstratas.
+* O modificador `protected`.
